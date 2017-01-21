@@ -1,9 +1,9 @@
 eslint-config-bliss
 =====================
 
-[![NPM version](https://badge.fury.io/js/eslint-config-bliss.svg?maxAge=2592000)](http://badge.fury.io/js/eslint-config-bliss)
-[![Dependency Status](https://img.shields.io/david/amilajack/eslint-config-bliss.svg?maxAge=2592000)](https://david-dm.org/amilajack/eeslint-config-bliss)
-[![npm](https://img.shields.io/npm/dm/eslint-config-bliss.svg?maxAge=2592000)](https://npm-stat.com/charts.html?package=eslint-config-bliss)
+[![NPM version](https://badge.fury.io/js/eslint-config-bliss.svg?maxAge=25920)](http://badge.fury.io/js/eslint-config-bliss)
+[![Dependency Status](https://img.shields.io/david/amilajack/eslint-config-bliss.svg?maxAge=25920)](https://david-dm.org/amilajack/eeslint-config-bliss)
+[![npm](https://img.shields.io/npm/dm/eslint-config-bliss.svg?maxAge=25920)](https://npm-stat.com/charts.html?package=eslint-config-bliss)
 
 This project was created to serve as a base config for **general node development**.
 
