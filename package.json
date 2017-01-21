@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-bliss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.json",
+  "keywords": [
+    "eslint",
+    "config",
+    "bliss",
+    "airbnb",
+    "flowtype",
+    "functional"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.14.0",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-config-compat": "^1.0.0",
+    "eslint-plugin-flowtype": "^2.30.0",
+    "eslint-plugin-flowtype-errors": "^2.0.3",
+    "eslint-plugin-fp": "^2.3.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jest": "^1.0.2",
+    "eslint-plugin-promise": "^3.4.0",
+    "flow-bin": "^0.38.0"
+  }
+}
