@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-bliss",
   "version": "0.0.2",
-  "description": "",
+  "description": "An opinionated ESLint config general node development 🎉",
   "main": "index.json",
   "keywords": [
     "eslint",
@@ -9,7 +9,10 @@
     "bliss",
     "airbnb",
     "flowtype",
-    "functional"
+    "functional",
+    "fp",
+    "jest",
+    "promise"
   ],
   "author": "Amila Welihinda",
   "license": "MIT",
