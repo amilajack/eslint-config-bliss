@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bliss",
-  "version": "0.0.7",
+  "version": "1.0.0-0",
   "description": "An opinionated ESLint config general node development 🎉",
   "main": "index.json",
   "keywords": [
