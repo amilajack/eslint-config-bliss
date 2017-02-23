@@ -3,11 +3,13 @@
   "extends": [
     "airbnb-base",
     "plugin:fp/recommended",
-    "plugin:flowtype/recommended"
+    "plugin:flowtype/recommended",
+    "plugin:jest/recommended"
   ],
   "env": {
     "node": true,
-    "jest": true
+    "jest": true,
+    "jest/globals": true
   },
   "rules": {
     "arrow-parens": 0,
@@ -21,6 +23,7 @@
     "fp/no-unused-expression": 0,
     "no-nested-ternary": 0,
     "no-var": 2,
+    "prettier/prettier": "error",
     "promise/always-return": 2,
     "promise/no-return-wrap": 2,
     "promise/param-names": 2,
@@ -37,6 +40,7 @@
     "flowtype",
     "flowtype-errors",
     "fp",
+    "prettier",
     "promise",
     "jest"
   ]

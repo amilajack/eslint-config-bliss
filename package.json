@@ -32,8 +32,8 @@
     "eslint-plugin-flowtype-errors": "^3.0.0",
     "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jest": "^1.0.2",
-    "eslint-plugin-promise": "^3.4.1",
+    "eslint-plugin-jest": "^19.0.1",
+    "eslint-plugin-promise": "^3.4.2",
     "flow-bin": "^0.39.0"
   },
   "peerDependencies": {
@@ -46,5 +46,8 @@
   "devEngines": {
     "node": ">=4.x",
     "npm": ">=3.x"
+  },
+  "devDependencies": {
+    "eslint-plugin-prettier": "^2.0.0"
   }
 }
