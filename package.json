@@ -39,7 +39,7 @@
     "prettier": "^1.7.4"
   },
   "peerDependencies": {
-    "eslint": "^3.0.0"
+    "eslint": "^4.0.0"
   },
   "engines": {
     "node": ">=4.x",
