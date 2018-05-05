@@ -9,7 +9,6 @@ This project was created to serve as a base config for **general node developmen
 
 It adds integration with:
 - [x] ES import/export
-- [x] Functional Programming
 - [x] Promise's
 - [x] Flow
 - [x] Jest

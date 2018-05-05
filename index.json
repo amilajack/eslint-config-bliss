@@ -2,7 +2,6 @@
   "parser": "babel-eslint",
   "extends": [
     "airbnb-base",
-    "plugin:fp/recommended",
     "plugin:flowtype/recommended",
     "plugin:jest/recommended"
   ],
@@ -16,9 +15,6 @@
     "flowtype/boolean-style": ["error", "bool"],
     "flowtype/semi": ["error", "always"],
     "flowtype-errors/show-errors": "error",
-    "fp/no-nil": "off",
-    "fp/no-mutating-methods": "off",
-    "fp/no-unused-expression": "off",
     "no-nested-ternary": "off",
     "no-var": "error",
     "prettier/prettier": "off",
@@ -36,7 +32,6 @@
     "compat",
     "flowtype",
     "flowtype-errors",
-    "fp",
     "prettier",
     "promise",
     "jest"

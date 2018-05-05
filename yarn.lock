@@ -166,12 +166,6 @@ core-js@^2.4.0:
   version "2.5.1"
   resolved "https://registry.npmjs.org/core-js/-/core-js-2.5.1.tgz#ae6874dc66937789b80754ff5428df66819ca50b"
 
-create-eslint-index@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/create-eslint-index/-/create-eslint-index-1.0.0.tgz#d954372d86d5792fcd67e9f2b791b1ab162411bb"
-  dependencies:
-    lodash.get "^4.3.0"
-
 debug@^2.6.8:
   version "2.6.9"
   resolved "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -204,13 +198,6 @@ error-ex@^1.2.0:
 escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
-
-eslint-ast-utils@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/eslint-ast-utils/-/eslint-ast-utils-1.1.0.tgz#3d58ba557801cfb1c941d68131ee9f8c34bd1586"
-  dependencies:
-    lodash.get "^4.4.2"
-    lodash.zip "^4.2.0"
 
 eslint-config-airbnb-base@^12.1.0:
   version "12.1.0"
@@ -254,15 +241,6 @@ eslint-plugin-flowtype@^2.46.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-2.46.1.tgz#c4f81d580cd89c82bc3a85a1ccf4ae3a915143a4"
   dependencies:
     lodash "^4.15.0"
-
-eslint-plugin-fp@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.npmjs.org/eslint-plugin-fp/-/eslint-plugin-fp-2.3.0.tgz#376d2a108710e981980bdc3875e3b9920da0489c"
-  dependencies:
-    create-eslint-index "^1.0.0"
-    eslint-ast-utils "^1.0.0"
-    lodash "^4.13.1"
-    req-all "^0.1.0"
 
 eslint-plugin-import@^2.10.0:
   version "2.10.0"
@@ -422,15 +400,7 @@ locate-path@^2.0.0:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
 
-lodash.get@^4.3.0, lodash.get@^4.4.2:
-  version "4.4.2"
-  resolved "https://registry.npmjs.org/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
-
-lodash.zip@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.npmjs.org/lodash.zip/-/lodash.zip-4.2.0.tgz#ec6662e4896408ed4ab6c542a3990b72cc080020"
-
-lodash@^4.13.1, lodash@^4.15.0, lodash@^4.2.0:
+lodash@^4.15.0, lodash@^4.2.0:
   version "4.17.4"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -547,10 +517,6 @@ read-pkg@^2.0.0:
 regenerator-runtime@^0.11.0:
   version "0.11.0"
   resolved "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.11.0.tgz#7e54fe5b5ccd5d6624ea6255c3473be090b802e1"
-
-req-all@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/req-all/-/req-all-0.1.0.tgz#130051e2ace58a02eacbfc9d448577a736a9273a"
 
 requireindex@^1.1.0:
   version "1.1.0"

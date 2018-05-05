@@ -10,7 +10,6 @@
     "airbnb",
     "flowtype",
     "functional",
-    "fp",
     "jest",
     "promise"
   ],
@@ -30,7 +29,6 @@
     "eslint-plugin-compat": "^2.2.0",
     "eslint-plugin-flowtype": "^2.46.1",
     "eslint-plugin-flowtype-errors": "^3.5.1",
-    "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "^2.10.0",
     "eslint-plugin-jest": "^21.15.0",
     "eslint-plugin-prettier": "^2.6.0",
