@@ -45,5 +45,8 @@
   "devEngines": {
     "node": ">=4.x",
     "npm": ">=3.x"
+  },
+  "scripts": {
+    "test": "exit 0"
   }
 }
