@@ -35,6 +35,9 @@
     "flow-bin": "^0.79.0",
     "prettier": "^1.14.2"
   },
+  "devDependencies": {
+    "eslint": "^5.0.0"
+  },
   "peerDependencies": {
     "eslint": "^5.0.0"
   },
@@ -47,6 +50,9 @@
     "npm": ">=3.x"
   },
   "scripts": {
-    "test": "exit 0"
-  }
+    "test": "eslint test --ext .json --ext .js"
+  },
+  "files": [
+    "index.json"
+  ]
 }
