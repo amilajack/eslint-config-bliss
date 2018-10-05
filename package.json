@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/amilajack/eslint-config-bliss#readme",
   "dependencies": {
-    "babel-eslint": "^8.0.0",
+    "babel-eslint": "^8.2.6",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-compat": "^2.5.1",
     "eslint-plugin-flowtype": "^2.50.0",
