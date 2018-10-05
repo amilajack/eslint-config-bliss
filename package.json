@@ -30,7 +30,7 @@
     "eslint-plugin-flowtype-errors": "^3.6.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jest": "^21.24.1",
-    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-prettier": "^2.7.0",
     "eslint-plugin-promise": "^4.0.1",
     "flow-bin": "^0.80.0",
     "prettier": "^1.14.2"
