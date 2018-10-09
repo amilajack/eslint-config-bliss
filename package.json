@@ -52,7 +52,7 @@
     "npm": ">=3.x"
   },
   "scripts": {
-    "test": "./node_modules/.bin/eslint test --ext .json --ext .js"
+    "test": "eslint test --ext .json --ext .js"
   },
   "files": [
     "index.json"
