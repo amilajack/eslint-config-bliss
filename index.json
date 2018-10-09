@@ -3,6 +3,8 @@
   "extends": [
     "airbnb-base",
     "plugin:flowtype/recommended",
+    "prettier",
+    "prettier/flowtype",
     "plugin:jest/recommended"
   ],
   "env": {
@@ -17,7 +19,7 @@
     "flowtype-errors/show-errors": "error",
     "no-nested-ternary": "off",
     "no-var": "error",
-    "prettier/prettier": "off",
+    "prettier/prettier": "error",
     "promise/always-return": "error",
     "promise/no-return-wrap": "error",
     "promise/param-names": "error",

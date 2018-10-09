@@ -36,7 +36,8 @@
     "prettier": "^1.14.3"
   },
   "devDependencies": {
-    "eslint": "^5.6.1"
+    "eslint": "^5.6.1",
+    "eslint-config-bliss": "^2.3.0"
   },
   "peerDependencies": {
     "eslint": "^5.6.1"
