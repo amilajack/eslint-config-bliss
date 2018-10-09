@@ -19,7 +19,7 @@
     "flowtype-errors/show-errors": "error",
     "no-nested-ternary": "off",
     "no-var": "error",
-    "prettier/prettier": "error",
+    "prettier/prettier": "off",
     "promise/always-return": "error",
     "promise/no-return-wrap": "error",
     "promise/param-names": "error",
@@ -28,7 +28,11 @@
     "promise/no-nesting": "error",
     "promise/no-promise-in-callback": "error",
     "promise/no-callback-in-promise": "error",
-    "promise/avoid-new": "off"
+    "promise/avoid-new": "off","quotes": [
+      "error",
+      "single",
+      { "avoidEscape": true, "allowTemplateLiterals": false }
+    ]
   },
   "plugins": [
     "compat",
