@@ -529,6 +529,25 @@ eslint-config-bliss@^2.3.0:
     flow-bin "^0.80.0"
     prettier "^1.14.2"
 
+eslint-config-bliss@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-bliss/-/eslint-config-bliss-3.0.0.tgz#d1bdadf725b83f505b4226059eb4c7b4ebcfa24e"
+  integrity sha512-cQUDi6lzI5hJ+l1e4BAlbcdOuvHkOdsLKVgPgIsWfHanBocHYFwmcEx1T6SVKBeEun+ICrBNo80Q9VHacgdfFA==
+  dependencies:
+    babel-eslint "^10.0.1"
+    eslint-config-airbnb-base "^13.1.0"
+    eslint-config-bliss "^2.3.0"
+    eslint-config-prettier "^3.1.0"
+    eslint-plugin-compat "^2.6.2"
+    eslint-plugin-flowtype "^2.50.3"
+    eslint-plugin-flowtype-errors "^3.6.0"
+    eslint-plugin-import "^2.14.0"
+    eslint-plugin-jest "^21.24.1"
+    eslint-plugin-prettier "^3.0.0"
+    eslint-plugin-promise "^4.0.1"
+    flow-bin "^0.82.0"
+    prettier "^1.14.3"
+
 eslint-config-prettier@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-3.1.0.tgz#2c26d2cdcfa3a05f0642cd7e6e4ef3316cdabfa2"
