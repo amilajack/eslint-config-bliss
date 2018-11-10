@@ -1,6 +1,6 @@
 {
   "extends": [
-    "config:base"
+    "bliss"
   ],
   "patch": {
     "automerge": true
