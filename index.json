@@ -2,7 +2,6 @@
   "parser": "babel-eslint",
   "extends": [
     "airbnb-base",
-    "plugin:flowtype/recommended",
     "prettier",
     "prettier/flowtype",
     "plugin:jest/recommended"
@@ -14,8 +13,6 @@
   "rules": {
     "comma-dangle": ["error", "never"],
     "consistent-return": "error",
-    "flowtype/boolean-style": ["error", "bool"],
-    "flowtype/semi": ["error", "always"],
     "flowtype-errors/show-errors": "error",
     "no-nested-ternary": "off",
     "no-var": "error",
@@ -36,7 +33,6 @@
   },
   "plugins": [
     "compat",
-    "flowtype",
     "flowtype-errors",
     "prettier",
     "promise",
