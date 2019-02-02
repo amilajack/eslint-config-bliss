@@ -36,10 +36,10 @@
     "prettier": "^1.15.3"
   },
   "devDependencies": {
-    "eslint": "^5.12.1"
+    "eslint": "^5.13.0"
   },
   "peerDependencies": {
-    "eslint": "^5.12.1"
+    "eslint": "^5.13.0"
   },
   "engines": {
     "node": ">=8.x",
