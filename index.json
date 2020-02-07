@@ -13,7 +13,6 @@
   "rules": {
     "comma-dangle": ["error", "never"],
     "consistent-return": "error",
-    "flowtype-errors/show-errors": "error",
     "no-nested-ternary": "off",
     "no-var": "error",
     "prettier/prettier": ["error", {"singleQuote": true, "parser": "flow"}],
@@ -34,7 +33,6 @@
   },
   "plugins": [
     "compat",
-    "flowtype-errors",
     "prettier",
     "promise",
     "jest"

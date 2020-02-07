@@ -1,3 +1,6 @@
+## v4.7.0
+- Remove `eslint-plugin-flowtype-errors`
+
 ## v3.1.1
 - Fix `eslint-plugin-prettier` config
 
