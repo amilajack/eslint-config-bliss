@@ -31,7 +31,7 @@
     "eslint-plugin-jest": "^23.2.0",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-promise": "^4.2.1",
-    "flow-bin": "^0.114.0",
+    "flow-bin": "^0.121.0",
     "prettier": "^1.19.1"
   },
   "devDependencies": {
