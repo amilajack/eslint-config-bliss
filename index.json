@@ -2,34 +2,15 @@
   "parser": "babel-eslint",
   "extends": [
     "airbnb-base",
-    "prettier",
+    "plugin:prettier/recommended",
     "prettier/flowtype",
-    "plugin:jest/recommended"
+    "prettier/react",
+    "plugin:jest/recommended",
+    "plugin:promise/recommended"
   ],
   "env": {
     "node": true,
     "jest": true
-  },
-  "rules": {
-    "comma-dangle": ["error", "never"],
-    "consistent-return": "error",
-    "no-nested-ternary": "off",
-    "no-var": "error",
-    "prettier/prettier": ["error", {"singleQuote": true, "parser": "flow"}],
-    "promise/always-return": "error",
-    "promise/no-return-wrap": "error",
-    "promise/param-names": "error",
-    "promise/catch-or-return": "error",
-    "promise/no-native": "off",
-    "promise/no-nesting": "error",
-    "promise/no-promise-in-callback": "error",
-    "promise/no-callback-in-promise": "error",
-    "promise/avoid-new": "off",
-    "quotes": [
-      "error",
-      "single",
-      { "avoidEscape": true, "allowTemplateLiterals": false }
-    ]
   },
   "plugins": [
     "compat",
