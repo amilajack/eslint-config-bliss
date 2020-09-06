@@ -1,0 +1,57 @@
+{
+  "name": "eslint-config-bliss-typescript",
+  "version": "5.0.0",
+  "description": "An opinionated ESLint config general node development 🎉",
+  "main": "index.json",
+  "keywords": [
+    "eslint",
+    "config",
+    "bliss",
+    "airbnb",
+    "jest",
+    "promise"
+  ],
+  "author": "Amila Welihinda",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amilajack/eslint-config-bliss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amilajack/eslint-config-bliss/issues"
+  },
+  "homepage": "https://github.com/amilajack/eslint-config-bliss#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
+    "eslint": "7.2.0",
+    "eslint-config-airbnb-typescript": "^10.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-compat": "^3.7.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.13.2",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-markdown": "^2.0.0-rc.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "prettier": "^2.0.5"
+  },
+  "peerDependencies": {
+    "eslint": "^6.0.1"
+  },
+  "engines": {
+    "node": ">=8.x",
+    "npm": ">=6.6.0"
+  },
+  "devEngines": {
+    "node": ">=8.x",
+    "npm": ">=3.x"
+  },
+  "scripts": {
+    "test": "eslint test --ext .json --ext .js"
+  },
+  "files": [
+    "index.json"
+  ]
+}

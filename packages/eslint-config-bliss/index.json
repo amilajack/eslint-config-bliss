@@ -3,10 +3,10 @@
   "extends": [
     "airbnb-base",
     "plugin:prettier/recommended",
-    "prettier/flowtype",
     "prettier/react",
     "plugin:jest/recommended",
-    "plugin:promise/recommended"
+    "plugin:promise/recommended",
+    "plugin:markdown/recommended"
   ],
   "env": {
     "node": true,
@@ -17,5 +17,8 @@
     "prettier",
     "promise",
     "jest"
-  ]
+  ],
+  "rules": {
+    "import/no-cycle": "off"
+  }
 }

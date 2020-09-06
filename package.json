@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-bliss",
   "version": "5.0.0",
+  "private": true,
   "description": "An opinionated ESLint config general node development 🎉",
   "main": "index.json",
   "keywords": [
@@ -8,7 +8,6 @@
     "config",
     "bliss",
     "airbnb",
-    "flowtype",
     "jest",
     "promise"
   ],
@@ -22,36 +21,7 @@
     "url": "https://github.com/amilajack/eslint-config-bliss/issues"
   },
   "homepage": "https://github.com/amilajack/eslint-config-bliss#readme",
-  "dependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-compat": "^3.7.0",
-    "eslint-plugin-import": "^2.21.2",
-    "eslint-plugin-jest": "^23.13.2",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-promise": "^4.2.1",
-    "flow-bin": "^0.127.0",
-    "prettier": "^2.0.5"
-  },
-  "devDependencies": {
-    "eslint": "^7.3.0"
-  },
-  "peerDependencies": {
-    "eslint": "^6.0.1"
-  },
-  "engines": {
-    "node": ">=8.x",
-    "npm": ">=6.6.0"
-  },
-  "devEngines": {
-    "node": ">=8.x",
-    "npm": ">=3.x"
-  },
-  "scripts": {
-    "test": "eslint test --ext .json --ext .js"
-  },
-  "files": [
-    "index.json"
+  "workspaces": [
+    "packages/*"
   ]
 }
