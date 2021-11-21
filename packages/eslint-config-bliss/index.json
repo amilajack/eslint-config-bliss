@@ -4,7 +4,6 @@
     "airbnb-base",
     "plugin:prettier/recommended",
     "plugin:jest/recommended",
-    "plugin:promise/recommended",
     "plugin:markdown/recommended"
   ],
   "env": {
@@ -14,7 +13,6 @@
   "plugins": [
     "compat",
     "prettier",
-    "promise",
     "jest"
   ],
   "rules": {
