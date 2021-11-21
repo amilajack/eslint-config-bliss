@@ -3,7 +3,6 @@
   "extends": [
     "airbnb-base",
     "plugin:prettier/recommended",
-    "prettier/react",
     "plugin:jest/recommended",
     "plugin:promise/recommended",
     "plugin:markdown/recommended"
